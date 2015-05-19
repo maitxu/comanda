@@ -1,0 +1,225 @@
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('roboto-black-webfont.eot');
+    src: url('roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-black-webfont.woff2') format('woff2'),
+         url('roboto-black-webfont.woff') format('woff'),
+         url('roboto-black-webfont.ttf') format('truetype'),
+         url('roboto-black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.eot');
+    src: url('roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff'),
+         url('roboto-bold-webfont.ttf') format('truetype'),
+         url('roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.eot');
+    src: url('roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-medium-webfont.woff2') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff'),
+         url('roboto-medium-webfont.ttf') format('truetype'),
+         url('roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-regular-webfont.eot');
+    src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.ttf') format('truetype'),
+         url('roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'roboto',Verdana,Tahoma,San-Serif;
+	font-size: 16px;
+}
+#contenedor{
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+#tabletas ul li{
+	display: inline-block;
+	background:url(../img/ipad.png) top left no-repeat;
+	background-size: 100%;
+	width: 15%;
+	margin: 2.2%;
+	height: 280px;
+	line-height: 250px;
+	font-size: 2em;
+}
+#tabletas a{
+	color: #000;
+	text-decoration: none;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+#tabletas a:hover{
+	color: #000;
+	text-shadow:none;
+}
+footer{
+	line-height: 450%;
+	width: 100%;
+	margin-top: 2%;
+}
+.pass{
+	line-height: 450%;
+	width:57%;
+	border: 1px solid #373739;
+
+}
+.acceder{
+	line-height: 450%;
+	background-color:#373739;
+	border: none;
+	width: 30%;
+	cursor: pointer;
+	color: #f4ecdf;
+	text-transform: uppercase;
+
+}
+#login {
+	position: relative;
+	width: 30%;
+	height: 300px;
+	margin: auto;
+	background-color: #ddd;
+	border-radius: 2em;
+	margin-top: 11%;
+}
+#login label{
+	display: block;
+	font-family: 'roboto';
+	line-height: 250%;
+
+}
+#login section{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top:5%;
+}
+#login input{
+	width: 100%;
+	border: 1px solid #373739;
+	line-height: 250%;
+	border-radius: 0.3em;
+}
+.entrar{
+	border: 1px solid #373739;
+	margin-top: 10%;
+}
+/*PRODUCTOS*/
+#concretos{
+	margin-top: 1%;
+}
+h1{
+	display: block;
+	line-height: 250%;
+	float: left;
+	width: 100%;
+	font-size: 2em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#opciones_productos ul li{
+	display: inline-block;
+	background-size: 100%;
+	padding: 1%;
+	margin: 1%;
+	border-radius:20px;
+	border: 1px solid #e4e3e3;
+	background-color: #a6a6a6;
+	color: #e4e3e3;
+	text-transform: uppercase;
+}
+#opciones_productos ul li a:link{
+	color: #e4e3e3;
+	display: block;
+}
+#concretos{
+	width: 100%;
+}
+#produs{
+	width: 60%;
+	border-right:1px solid #a6a6a6;
+	float: left;
+	display: block;
+}
+#produs ul li{
+	display: inline-block;
+	background: url(../img/coke.png) top left no-repeat;
+	background-size: 100%;
+	padding: 1%;
+	width: 10%;
+	margin: 3%;
+	line-height:500%;
+	font-size: 1em;
+	border: 1px solid #e4e3e3;
+	color: #e4e3e3;
+
+}
+
+#produs ul li label{
+	background-color: #a6a6a6;
+	color: #e4e3e3;
+	text-decoration: none;
+	padding: 5%;
+	border-radius: 5%;
+}
+#produs ul li a:link{
+	background-color: #a6a6a6;
+	color: #e4e3e3;
+	text-decoration: none;
+}
+#produs ul li a:visited{
+	background-color: #a6a6a6;
+	color: #e4e3e3;
+	text-decoration: none;
+}
+#subpedido{
+	width: 20%;
+	float: left;
+}
+
+
+/*INSERTAR PRODUCTOS NUEVOS*/
+
+#nuevo_produ{
+	width: 50%;
+	float: left;
+	margin-left: 40%;
+	text-align: left;
+}
+.boton_modificar{
+	margin:2%;
+	margin-left: 0;
+	background-color: #a6a6a6;
+	padding: 2px;
+	border:1px solid black;
+}
+@media (max-width: 400px){
+	#login {
+		position: relative;
+		width: 80%;
+		height: 300px;
+		margin: auto;
+		background-color: #ddd;
+		margin-top: 13.5%;
+	}
+}
